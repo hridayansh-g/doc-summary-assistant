@@ -1,6 +1,11 @@
+# macOS junk
+.DS_Store
+
+# Python
 __pycache__/
 *.pyc
 .venv/
-.env
+
+# Node / frontend
 node_modules/
 dist/
