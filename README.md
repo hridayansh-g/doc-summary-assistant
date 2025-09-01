@@ -5,9 +5,9 @@ It allows you to upload **PDFs or images** → extracts text (OCR for images) �
 
 ---
 ## 🖼️ Screenshots
-![Before uploading file](a.png)
+![Before uploading file](b.png)
 
-![after uploading file](b.png)
+![after uploading file](a.png)
 
 ---
 
