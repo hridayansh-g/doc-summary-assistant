@@ -4,6 +4,12 @@ A simple yet powerful document summarization tool built with **FastAPI + Cohere/
 It allows you to upload **PDFs or images** → extracts text (OCR for images) → generates concise summaries.
 
 ---
+## 🖼️ Screenshots
+![Before uploading file](a.png)
+
+![after uploading file](b.png)
+
+---
 
 ## 🚀 Features
 - 📑 **PDF Summarization** – Upload any PDF, get concise summaries.
