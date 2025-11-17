@@ -84,9 +84,4 @@ async def summarize(file: UploadFile = File(...), length: str = Form("medium")):
 def health():
     return {"ok": True, "service": "doc-summary-assistant", "provider": "cohere"}
 
-# ---------------------
-#   Static Frontend
-# ---------------------
-# Serve the frontend at root (index.html, assets, etc.)
-# Keep this AFTER the API route definitions so /api/* keeps working.
 app.mount("/", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
